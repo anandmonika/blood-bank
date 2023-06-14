@@ -1,0 +1,15 @@
+<h1 mat-dialog-title>👋 Hi</h1>
+<div mat-dialog-content>
+  <p>Fill the bottles available for different blood group</p>
+  <mat-grid-list cols="2" rowHeight="2:1" gutterSize="10">
+    <mat-grid-tile *ngFor="let bg of data.bloodGroups">
+      <mat-form-field id="bottle-input-{{bg}}">
+        <mat-label>{{ bg }}</mat-label>
+        <input matInput type="number" [(ngModel)]="data.bloodGroupBottlesCount[bg]">
+      </mat-form-field>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="data.bloodGroupBottlesCount" cdkFocusInitial>Ok</button>
+</div>

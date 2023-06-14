@@ -1,0 +1,51 @@
+.container {
+    width: 200%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 20px;
+}
+
+.box{
+    height: 50px;
+    color: aquamarine;
+    border: 2px solid white;
+    position: relative;
+}
+
+
+.red-bg {
+    background: rgb(199, 99, 104);
+}
+
+.text-center {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px; 
+}
+
+.blood-group-box {
+    min-width: 100px;
+    min-height: 50px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.blood-group-bottle-count-box {
+    min-width: 50px;
+    min-height: 50px;
+    margin-left: 5px;
+    font-size: 1.3rem;
+}
+
+#header {
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+}
+
+.fill-remaining-space {
+    flex: 1 1 auto;
+}
+
+.highlight-donor {
+    background-color: lightgreen;
+}
