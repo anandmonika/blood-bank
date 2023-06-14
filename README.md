@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.5.
 
+## Tasks
+- [x] Get initial blood group bottle counts from the user to initiate the app
+- [x] Get the receiver blood group and highlight the donor blood groups
+- [ ] ~~Get the receiver requirement bottles and allow drag and drop to fulfill the requirement~~
+
+I was not able to complete the last task due to multiple reasons, my sincere apologies. However, I've submitted the complete top two tasks and it's hosted here for your review: https://blood-bank-sandy.vercel.app/.
+
+I hope you will review my submission and give me a chance to move forward, looking forward to hearing from you.
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
